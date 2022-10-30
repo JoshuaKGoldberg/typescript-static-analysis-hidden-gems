@@ -6,6 +6,13 @@ module.exports = {
 	],
 	overrides: [
 		{
+			files: "src/**/*",
+			rules: {
+				"local-rules/no-eqeq": "error",
+				"local-rules/prefer-they": "error",
+			},
+		},
+		{
 			extends: [
 				"plugin:@typescript-eslint/recommended",
 				"plugin:@typescript-eslint/recommended-requiring-type-checking",
@@ -34,9 +41,15 @@ module.exports = {
 		tsconfigRootDir: __dirname,
 		project: ["./tsconfig.json"],
 	},
-	plugins: ["@typescript-eslint", "simple-import-sort", "typescript-sort-keys"],
+	plugins: [
+		"@typescript-eslint",
+		"local-rules",
+		"simple-import-sort",
+		"typescript-sort-keys",
+	],
 	root: true,
 	rules: {
+		"no-undef": "off",
 		"simple-import-sort/exports": "error",
 		"simple-import-sort/imports": "error",
 	},
