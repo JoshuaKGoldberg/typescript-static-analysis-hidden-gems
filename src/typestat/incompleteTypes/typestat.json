@@ -1,0 +1,7 @@
+{
+	"fixes": {
+		"incompleteTypes": true
+	},
+	"include": ["src/typestat/incompleteTypes/index.ts"],
+	"projectPath": "../../../tsconfig.json"
+}

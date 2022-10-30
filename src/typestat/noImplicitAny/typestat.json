@@ -1,0 +1,7 @@
+{
+	"fixes": {
+		"noImplicitAny": true
+	},
+	"include": ["src/typestat/noImplicitAny/index.ts"],
+	"projectPath": "../../../tsconfig.json"
+}
