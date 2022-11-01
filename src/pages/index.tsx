@@ -42,7 +42,7 @@ export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>TypeScript-ESLint React Demo</title>
+				<title>TypeScript-ESLint React Demo ✨</title>
 				<meta
 					name="description"
 					content="Demo showing TypeScript-ESLint rules with React."
