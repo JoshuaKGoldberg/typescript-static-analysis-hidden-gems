@@ -43,7 +43,8 @@
 	"main": "./dist/index.js",
 	"name": "typescript-static-analysis-hidden-gems",
 	"scripts": {
-		"build": "tsc",
+		"build": "next build",
+		"compile": "tsc",
 		"dev": "next dev",
 		"format": "prettier \"**/*\" --ignore-unknown",
 		"format:write": "yarn format --write",
