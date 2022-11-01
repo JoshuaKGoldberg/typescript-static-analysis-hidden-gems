@@ -1,5 +1,10 @@
 {
 	"author": "Josh Goldberg <npm@joshuakgoldberg.com>",
+	"dependencies": {
+		"next": "13.0.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
 	"description": "Template TypeScript Node.js package with all the CI bells & whistles I commonly use. ✨",
 	"devDependencies": {
 		"@semantic-release/changelog": "^6.0.1",
@@ -8,6 +13,7 @@
 		"@semantic-release/github": "^8.0.6",
 		"@semantic-release/npm": "^9.0.1",
 		"@semantic-release/release-notes-generator": "^10.0.3",
+		"@types/react": "^18.0.24",
 		"@typescript-eslint/eslint-plugin": "^5.38.1",
 		"@typescript-eslint/parser": "^5.38.1",
 		"cspell": "^6.12.0",
@@ -38,6 +44,7 @@
 	"name": "typescript-static-analysis-hidden-gems",
 	"scripts": {
 		"build": "tsc",
+		"dev": "next dev",
 		"format": "prettier \"**/*\" --ignore-unknown",
 		"format:write": "yarn format --write",
 		"lint": "npx eslint . --max-warnings 0 --report-unused-disable-directives",
@@ -47,8 +54,8 @@
 		"lint:spelling": "cspell \"**\" \".github/**/*\"",
 		"prepare": "husky install",
 		"test": "vitest",
-		"typestat:noImplicitAny": "typestat --config ./src/typestat/noImplicitAny/typestat.json",
-		"typestat:incompleteTypes": "typestat --config ./src/typestat/incompleteTypes/typestat.json"
+		"typestat:incompleteTypes": "typestat --config ./src/typestat/incompleteTypes/typestat.json",
+		"typestat:noImplicitAny": "typestat --config ./src/typestat/noImplicitAny/typestat.json"
 	},
 	"type": "module",
 	"version": "1.1.2"

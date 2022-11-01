@@ -1,4 +1,4 @@
 {
 	"error": true,
-	"skip": "src/index.ts"
+	"ignore": "next.config.js|src/(index|linting|pages|typestat)"
 }

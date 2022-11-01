@@ -27,10 +27,14 @@
 npm i typescript-static-analysis-hidden-gems
 ```
 
+To start a Next dev server with
+
 For different static analysis runs:
 
-- `yarn lint`: ESLint
-- `yarn lint:prune`: ts-prune
+1. `yarn lint`: ESLint
+2. `yarn lint:prune`: ts-prune
+3. `typestat:noImplicitAny`: TypeStat, fixing `noImplicitAny` violations
+4. `typestat:incompleteTypes`: TypeStat, fixing `incompleteTypes` violations
 
 ## Development
 

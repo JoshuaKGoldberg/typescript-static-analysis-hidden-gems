@@ -1,4 +1,4 @@
-class SetLike<T> {
+export class SetLike<T> {
 	#values = new Set<T>();
 
 	add(value: T) {
@@ -6,7 +6,7 @@ class SetLike<T> {
 	}
 }
 
-const uniqueNamesOrBooleans = new SetLike();
+export const uniqueNamesOrBooleans = new SetLike();
 
 uniqueNamesOrBooleans.add("Josh");
 uniqueNamesOrBooleans.add(false);
