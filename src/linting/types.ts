@@ -3,7 +3,7 @@ export function createState() {
 
 	return {
 		getValue: () => value,
-		increment: () => {
+		incrementValue: () => {
 			value += 1;
 		},
 	};

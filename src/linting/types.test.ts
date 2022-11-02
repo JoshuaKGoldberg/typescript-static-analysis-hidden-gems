@@ -3,6 +3,6 @@ import { createState } from "./types";
 createState();
 // ^? (alias) createState(): {
 //        getValue: () => number;
-//        increment: () => void;
+//        incrementValue: () => void;
 //    }
 //    import createState
