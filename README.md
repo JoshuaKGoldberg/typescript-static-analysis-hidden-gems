@@ -2,6 +2,8 @@
 
 <p align="center">Code samples for the talk, formed from my <a href="github.com/JoshuaKGoldberg/template-typescript-node-package">template-typescript-node-package</a>. ✨</p>
 
+<p align="center">👉 <a href="https://1drv.ms/p/s!AvUc1cvPrJnWvtRH7pSjEMV1rrpTqQ">Slides available here!</a> 👈</p>
+
 <p align="center">
 	<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 	<a href="#contributors">
