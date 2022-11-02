@@ -8,3 +8,5 @@ export function createState() {
 		},
 	};
 }
+
+createState();
