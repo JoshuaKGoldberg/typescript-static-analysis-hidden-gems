@@ -23,11 +23,9 @@
 
 ## Usage
 
-```shell
-npm i typescript-static-analysis-hidden-gems
-```
+Install with `yarn`.
 
-To start a Next dev server with
+To start a Next dev server, `yarn dev`.
 
 For different static analysis runs:
 
