@@ -31,8 +31,8 @@ For different static analysis runs:
 
 1. `yarn lint`: ESLint
 2. `yarn lint:prune`: ts-prune
-3. `typestat:noImplicitAny`: TypeStat, fixing `noImplicitAny` violations
-4. `typestat:incompleteTypes`: TypeStat, fixing `incompleteTypes` violations
+3. `yarn typestat:noImplicitAny`: TypeStat, fixing `noImplicitAny` violations
+4. `yarn typestat:incompleteTypes`: TypeStat, fixing `incompleteTypes` violations
 
 ## Development
 
