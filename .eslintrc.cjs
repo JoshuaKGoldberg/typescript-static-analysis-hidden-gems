@@ -19,6 +19,7 @@ module.exports = {
 			],
 			files: ["**/*.{ts,tsx}"],
 			rules: {
+				"expect-type/expect": "error",
 				// I only disabled these so that we wouldn't see later rules
 				// show up in earlier files... Don't copy these disables! 😉
 				"@typescript-eslint/await-thenable": "off",
@@ -52,6 +53,7 @@ module.exports = {
 		"local-rules",
 		"simple-import-sort",
 		"typescript-sort-keys",
+		"eslint-plugin-expect-type",
 	],
 	root: true,
 	rules: {
